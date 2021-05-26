@@ -7,7 +7,7 @@ interface Props {
 
   const styles = {
       position: "fixed",
-      bottom: 0,
+      top: 116,
       left: 0,
       right: 0
   } as React.CSSProperties

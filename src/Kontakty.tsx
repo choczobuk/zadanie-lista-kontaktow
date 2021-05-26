@@ -51,7 +51,7 @@ const Kontakty = () => {
           style={style}
         />
     )
-  }, [lista])
+  }, [lista, zaznaczoneKontakty])
 
   return (
     <Box className="contacts">

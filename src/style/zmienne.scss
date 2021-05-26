@@ -1,0 +1,22 @@
+// Avatar
+$avatar-size: 3rem;
+$avatar-bg-color: #ede7f6;
+$avatar-bg-color-hover: darken($avatar-bg-color, 5%);
+
+// Background
+$bg-color: #0d00ff;
+
+// Breakpoints
+$breakpoint-mobile: 600px;
+
+// Contact
+$contact-bg-color: #f1f1f1;
+$border-color: #cdcdcd;
+$email-font-color: #888888;
+$checkbox-checked: #f81455;
+$border-properties: 1px solid $border-color;
+
+// Title
+$title-bg-color: $bg-color;
+$title-font-color: #fff;
+

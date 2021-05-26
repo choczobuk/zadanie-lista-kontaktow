@@ -1,0 +1,13 @@
+pages:
+  stage: deploy
+  script:
+    - echo "Deploy starting"
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+    - echo "Deploy finished"
+  artifacts:
+    paths:
+    - public
+  only:
+    - master

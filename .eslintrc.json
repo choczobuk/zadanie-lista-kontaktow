@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-multi-spaces": "error",
+    "comma-dangle": ["error", "never"],
+    "max-len": ["error", 120, 2],
+    "arrow-parens": ["error", "as-needed"],
+    "eol-last": ["error", "always"],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1, "maxBOF": 0 }],
+    "react/jsx-one-expression-per-line": 1,
+    "react/jsx-fragments": 0,
+    "react/jsx-props-no-spreading": 0
+  }
+}
